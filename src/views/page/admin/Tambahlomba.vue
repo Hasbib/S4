@@ -33,7 +33,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/tambahjuri">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
                             </div>
                             <div class="menu-title">Tambah Juri</div>
