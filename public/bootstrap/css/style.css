@@ -1111,9 +1111,9 @@ button {
 }
 
 .tf__about_top_img {
-    height: 320px;
-    width: 450px;
-    padding-left: 190px;
+    height: 200px;
+    width: 340px;
+    padding-left: 200px;
     padding-top: 50px;
     float: left;
 }
@@ -6412,3 +6412,16 @@ button {
 /* ==================================
     PRIVACY POLICY END
 =================================== */
+
+.sponsor-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-top: 100px;
+    padding-left: 60px;
+}
+
+.sponsor-item {
+    width: 90%;
+}
+

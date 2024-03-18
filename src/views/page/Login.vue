@@ -1,5 +1,5 @@
 <template>
-<section style="background: url(../assets/images/login-images/bg-login-img.jpg);">
+<section style="background: url(../assets/images/login-images/bg-forgot-password.jpg);">
     <div class="wrapper">
 		<div class="section-authentication-signin d-flex align-items-center justify-content-center my-5 my-lg-0">
 			<div class="container-fluid">

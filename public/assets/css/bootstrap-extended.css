@@ -176,6 +176,13 @@ a {
 	border-color: #fd3550
 }
 
+/* btn buatan */
+.btn-warning {
+	color: #fff;
+	margin-right: 10px;
+	margin-left: -10px;
+}
+
 
 .btn-outline-primary {
 	color: #008cff;
@@ -370,6 +377,24 @@ a {
 
 
 
+.navbar-tambah {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff; 
+    color: white; 
+}
+
+.navbar-left img {
+    width: 150px;
+    height: auto; 
+}
+
+.navbar-right p {
+    margin: 0;
+	color:#000000
+}
 
 
 

@@ -19,24 +19,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="#">
-                            <div class="parent-icon"><i class="bx bx-category"></i>
-                            </div>
-                            <div class="menu-title">Lomba</div>
-                        </a>
-                    </li>
-                    <li>
                         <a  href="/tambahlomba">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
                             </div>
-                            <div class="menu-title">Tambah Lomba</div>
+                            <div class="menu-title">Lomba</div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
                             </div>
-                            <div class="menu-title">Tambah Juri</div>
+                            <div class="menu-title">Juri</div>
                         </a>
                     </li>
                     <li>
@@ -51,6 +44,34 @@
                             <div class="parent-icon"><i class="fadeIn animated bx bx-file"></i>
                             </div>
                             <div class="menu-title">Laporan</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/event">
+                            <div class="parent-icon"><i class="fadeIn animated bx bx-calendar-event"></i>
+                            </div>
+                            <div class="menu-title">Event</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="fadeIn animated bx bx-news"></i>
+                            </div>
+                            <div class="menu-title">Berita</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="fadeIn animated bx bx-user"></i>
+                            </div>
+                            <div class="menu-title">Sponsor</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="parent-icon"><i class="fadeIn animated bx bx-bell"></i>
+                            </div>
+                            <div class="menu-title">Pesan</div>
                         </a>
                     </li>
                     <li>

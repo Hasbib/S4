@@ -40,7 +40,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/laporan">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-file"></i>
                             </div>
                             <div class="menu-title">Laporan</div>
@@ -113,15 +113,92 @@
                                 <ol class="breadcrumb mb-0 p-0">
                                     <li class="breadcrumb-item">
                                     </li>
-                                    <li class="breadcrumb-item active" aria-current="page">Laporan</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Lomba</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="mb-0">Laporan</h4>
-                            <hr/>		
+                            <h4 class="mb-0" style="margin-top: -5px;">Tambah Lomba</h4>
+                            <hr style="margin-top: 10px;" />		
+                            <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahlomba'">Tambah Lomba</button>
+                            <hr style="margin-top: 10px;" />
+                            <div style="display: flex; align-items: center; margin-top: -15px;">
+                                <label  style="margin-right: 5px;">Show</label>
+                                    <select id="theme_selector">
+                                        <option value="15" selected>15</option>
+                                        <option value="30">30</option>
+                                        <option value="50">50</option>
+                                    </select>
+                                <label  style="margin-left: 5px;"> entries </label>
+                                <br><br><br>
+                                <div style="flex-grow: 1; text-align: right;">
+                                    <label>Cari: </label>
+                                    <label><input type="text" class="form-control" style="width: 250px;">
+                                        <span class="product-show"><i></i></span>
+                                    </label> 
+                                </div>
+                            </div>
+                            <table id="example" class="table table-striped table-bordered" style="width:100%">
+								<thead>
+									<tr>
+										<th>No</th>
+										<th>Nama Lomba</th>
+										<th>Tanggal Mulai</th>
+										<th>Tanggal Berakhir</th>
+										<th>Aksi</th>
+									</tr>
+								</thead>
+                                <tbody>
+									<tr>
+										<td>1</td>
+										<td>Lomba Desain</td>
+										<td>15 Maret 2024</td>
+										<td>20 Maret 2024</td>
+										<td>
+                                            <div style="text-align: center;">
+                                                <button class="btn btn-warning" onclick="window.location.href='/detaillomba'">Detail</button>
+                                                <button class="btn btn-primary" onclick="window.location.href='/editlomba'">Edit</button>
+                                                <button class="btn btn-danger">Hapus</button>
+                                            </div>
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>2</td>
+										<td>Lomba AR/VR</td>
+										<td>18 Maret 2024</td>
+										<td>25 Maret 2024</td>
+										<td>
+                                            <div style="text-align: center;">
+                                                <button class="btn btn-warning" onclick="window.location.href='/detaillomba'">Detail</button>
+                                                <button class="btn btn-primary" onclick="window.location.href='/editlomba'">Edit</button>
+                                                <button class="btn btn-danger">Hapus</button>
+                                            </div>
+                                        </td>
+									</tr>
+                                </tbody>
+							</table>
+                            <div class="card-body">
+                                <nav aria-label="Page navigation example">
+                                    <ul class="pagination">
+                                        <li class="page-item">
+                                            <a class="page-link" href="javascript:;" aria-label="Previous">	<span aria-hidden="true">«</span>
+                                            </a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="javascript:;">1</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="javascript:;">2</a>
+                                        </li>
+                                        <li class="page-item"><a class="page-link" href="javascript:;">3</a>
+                                        </li>
+                                        <li class="page-item">
+                                            <a class="page-link" href="javascript:;" aria-label="Next">	<span aria-hidden="true">»</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,3 +206,5 @@
             <!--end page wrapper -->
         </div>
     </template>
+    
+   
