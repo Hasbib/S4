@@ -104,8 +104,8 @@
                 </div>
             </header>
             <!--end header -->
-            <!--start page wrapper -->
-            <div class="page-wrapper">
+             <!--start page wrapper -->
+             <div class="page-wrapper">
                 <div class="page-content">
                     <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
                         <div class="ps-3">
@@ -113,14 +113,16 @@
                                 <ol class="breadcrumb mb-0 p-0">
                                     <li class="breadcrumb-item">
                                     </li>
-                                    <li class="breadcrumb-item active" aria-current="page">Laporan</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Partisipan</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="mb-0" style="margin-top: -5px;">Tabel Data Tim</h4>                           
+                            <h4 class="mb-0" style="margin-top: -5px;">Tambah Partisipan</h4>
+                            <hr style="margin-top: 10px;" />		
+                            <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/Tambahpartisipan'">Tambah Partisipan</button>
                             <hr style="margin-top: 10px;" />
                             <div style="display: flex; align-items: center; margin-top: -15px;">
                                 <label  style="margin-right: 5px;">Show</label>
@@ -142,21 +144,24 @@
 								<thead>
 									<tr>
 										<th>No</th>
-										<th>Nama Tim</th>
-										<th>Email</th>
-										<th>Status</th>
+										<th>Nama Lengkap</th>
+										<th>Role</th>
+										<th>Kategori</th>
+                                        <th>Tanggal</th>
 										<th>Aksi</th>
 									</tr>
 								</thead>
                                 <tbody>
 									<tr>
 										<td>1</td>
-										<td>Start8</td>
-										<td>habibshohiburrotib@gmail.com</td>
-										<td>Verifikasi</td>
+										<td>Muhammad</td>
+										<td>Superadmin</td>
+										<td>Lomba Desain</td>
+                                        <td>15 Maret 2024</td>
 										<td>
                                             <div style="text-align: center;">
-                                                <button class="btn btn-warning" onclick="window.location.href='/detaillaporan'">Detail</button>
+                                                <button class="btn btn-warning" onclick="window.location.href='/Detailpartisipan'">Detail</button>
+                                                <button class="btn btn-primary" onclick="window.location.href='/Editpartisipan'">Edit</button>
                                                 <button class="btn btn-danger">Hapus</button>
                                             </div>
                                         </td>

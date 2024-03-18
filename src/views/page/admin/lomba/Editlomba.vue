@@ -22,16 +22,16 @@
                         <div class="row">
                             <div class="col-md-6"  style="margin-bottom: 10px;">
                                 <label style="margin-bottom: 5px;">Nama Lomba</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control"  value="Lomba Desain">
                             </div>
                             <div class="col-md-6">
                                 <label style="margin-bottom: 5px;">Tempat</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control" value="Surakarta">
                             </div>
                             <div class="col-md-6">
                                 <label style="margin-bottom: 5px;">Deskripsi</label>
                                 <div class="col-12">
-                                    <textarea class="form-control" id="inputProductDescription" rows="7" style="margin-bottom: 10px;"></textarea>
+                                    <textarea class="form-control" id="inputProductDescription" rows="7" style="margin-bottom: 10px;" value="Lomba Desain adalah ajang kompetitif di mana beberapa tim bersaing dalam merancang dan menciptakan karya visual yang unik dan inovatif, sesuai dengan tema yang ditentukan."></textarea>
                                     
                                     <label for="formFile" class="form-label">Upload Gambar</label>
 									<input class="form-control" type="file" id="formFile">
@@ -39,7 +39,7 @@
                             </div>
                             <div class="col-md-6">
                                 <label style="margin-bottom: 5px;">Kontak PJ</label>
-                                <input type="email" class="form-control" style="margin-bottom: 8px;">
+                                <input type="email" class="form-control" style="margin-bottom: 8px;" value="085800086454">
                                 
                                 <label class="form-label">Tanggal Mulai</label>
 								<input type="date" class="form-control" style="margin-bottom: 8px;">
@@ -51,7 +51,7 @@
                                 <div class="col-12">
                                     <select class="form-select" id="inputProductType">
                                         <option></option>
-                                        <option value="1">One</option>
+                                        <option value="1" selected>One</option>
                                         <option value="2">Two</option>
                                         <option value="3">Three</option>
                                     </select>

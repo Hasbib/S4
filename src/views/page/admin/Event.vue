@@ -26,10 +26,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/tambahjuri">
+                        <a href="/partisipan">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
                             </div>
-                            <div class="menu-title">Juri</div>
+                            <div class="menu-title">Partisipan</div>
                         </a>
                     </li>
                     <li>
@@ -54,7 +54,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/berita">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-news"></i>
                             </div>
                             <div class="menu-title">Berita</div>

@@ -7,8 +7,12 @@ import Index2 from '../views/page/admin/Index2.vue';
 import Profil from '../views/page/admin/Profil.vue';
 import Lupapassword from '../views/page/Lupapassword.vue';
 import Lomba from '../views/page/admin/Lomba.vue';
-import Tambahjuri from '../views/page/admin/Tambahjuri.vue';
+import Partisipan from '../views/page/admin/Partisipan.vue';
+import Tambahpartisipan from '../views/page/admin/partisipan/Tambahpartisipan.vue';
+import Detailpartisipan from '../views/page/admin/partisipan/Detailpartisipan.vue';
+import Editpartisipan from '../views/page/admin/partisipan/Editpartisipan.vue';
 import Laporan from '../views/page/admin/Laporan.vue';
+import Detaillaporan from '../views/page/admin/laporan/Detaillaporan.vue';
 import Informasiberita from '../views/page/Informasiberita.vue';
 import Berita from '../views/page/admin/Berita.vue';
 import Tambahberita from '../views/page/admin/berita/Tambahberita.vue';
@@ -29,8 +33,12 @@ const routes = [
   { path: '/profil', component: Profil},
   { path: '/lupapassword', component: Lupapassword},
   { path: '/lomba', component: Lomba},
-  { path: '/tambahjuri', component: Tambahjuri},
+  { path: '/partisipan', component: Partisipan},
+  { path: '/tambahpartisipan', component: Tambahpartisipan},
+  { path: '/detailpartisipan', component: Detailpartisipan},
+  { path: '/editpartisipan', component: Editpartisipan},
   { path: '/laporan', component: Laporan},
+  { path: '/detaillaporan', component: Detaillaporan},
   { path: '/informasiberita', component: Informasiberita},
   { path: '/berita', component: Berita},
   { path: '/tambahberita', component: Tambahberita},

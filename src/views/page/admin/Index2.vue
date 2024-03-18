@@ -26,10 +26,10 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/partisipan">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-street-view"></i>
                             </div>
-                            <div class="menu-title">Juri</div>
+                            <div class="menu-title">Partisipan</div>
                         </a>
                     </li>
                     <li>

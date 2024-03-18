@@ -22,12 +22,12 @@
                         <div class="">
                             <div class=""  style="margin-bottom: 10px;">
                                 <label style="margin-bottom: 5px;">Judul</label>
-                                <input type="email" class="form-control">
+                                <input type="email" class="form-control" value="Monitoring Perkembangan Projek Manajemen Lomba Prodi">
                             </div>
                             <div class="">
                                 <label style="margin-bottom: 5px;">Deskripsi</label>
                                 <div class="col-12">
-                                    <textarea class="form-control" id="inputProductDescription" rows="7" style="margin-bottom: 10px;"></textarea>
+                                    <textarea class="form-control" id="inputProductDescription" rows="7" style="margin-bottom: 10px;" value="Platform yang sering kami gunakan untuk melakukan diskusi online selain whatsapp adalah discord"></textarea>
                                 </div>
                             </div>
                             <div class="">
