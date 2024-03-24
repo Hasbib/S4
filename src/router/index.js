@@ -22,6 +22,7 @@ import Tambahlomba from '../views/page/admin/lomba/Tambahlomba.vue';
 import Editlomba from '../views/page/admin/lomba/Editlomba.vue';
 import Detaillomba from '../views/page/admin/lomba/Detaillomba.vue';
 import Event from '../views/page/admin/Event.vue';
+import Pesan from '../views/page/admin/Pesan.vue';
 
 
 const routes = [
@@ -48,6 +49,7 @@ const routes = [
   { path: '/editlomba', component: Editlomba},
   { path: '/detaillomba', component: Detaillomba},
   { path: '/event', component: Event},
+  { path: '/pesan', component: Pesan},
   
 ];
 

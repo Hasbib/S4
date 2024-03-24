@@ -83,8 +83,8 @@
                 </div>
             </header>
             <!--end header -->
-            <!--start page wrapper -->
-            <div class="page-wrapper">
+             <!--start page wrapper -->
+             <div class="page-wrapper">
                 <div class="page-content">
                     <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
                         <div class="ps-3">
@@ -92,17 +92,21 @@
                                 <ol class="breadcrumb mb-0 p-0">
                                     <li class="breadcrumb-item">
                                     </li>
-                                    <li class="breadcrumb-item active" aria-current="page">Lomba</li>
+                                    <li class="breadcrumb-item active" aria-current="page">Pesan</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <h4 class="mb-0" style="margin-top: -5px;">Tambah Lomba</h4>
+                            <h4 class="mb-0" style="margin-top: -5px;">Tabel Pesan</h4>
                             <hr style="margin-top: 10px;" />		
-                            <button class="btn btn-success"  style="margin-top: -7px;" onclick="window.location.href='/tambahlomba'">Tambah Lomba</button>
-                            <hr style="margin-top: 10px;" />
+                            <label style="margin-right: 10px;">Tampilkan Status</label> 
+								<select class="form-select2">
+									<option selected>Semua</option>
+									<option>Belum Dibaca</option>
+                                    <option>Sudah Dibaca</option>
+								</select>
                             <div style="display: flex; align-items: center; margin-top: -15px;">
                                 <label  style="margin-right: 5px;">Tampilkan</label>
                                     <select id="theme_selector">
@@ -119,45 +123,43 @@
                                     </label> 
                                 </div>
                             </div>
-                                <table class="table table-hover mt-3  table-bordered">
-                                    <thead class="table-dark">
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Nama Lomba</th>
-                                            <th>Kategori</th>
-                                            <th>Tanggal Mulai</th>
-                                            <th>Tanggal Berakhir</th>  
-                                            <th>Aksi</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Lomba AR/VR</td>
-                                            <td>Aplikasi</td>
-                                            <td>25 Maret 2024</td>
-                                            <td>29 Maret 2024</td>
-                                            <td style="text-align: center;">
-                                                <button class="btn btn-secondary" onclick="window.location.href='/detaillomba'"><i class="bi bi-eye"></i></button>
-                                                <button class="btn btn-primary" onclick="window.location.href='/editlomba'"><i class="bi bi-pencil-square"></i></button>    
-                                                <button class="btn btn-danger" ><i class="bi bi-trash"></i></button>                              
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>1</td>
-                                            <td>Lomba UI/UX</td>
-                                            <td>Desain</td>
-                                            <td>25 Maret 2024</td>
-                                            <td>29 Maret 2024</td>
-                                            <td style="text-align: center;">
-                                                <button class="btn btn-secondary" onclick="window.location.href='/detaillomba'"><i class="bi bi-eye"></i></button>
-                                                <button class="btn btn-primary" onclick="window.location.href='/editlomba'"><i class="bi bi-pencil-square"></i></button>    
-                                                <button class="btn btn-danger"><i class="bi bi-trash"></i></button>                              
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                         
+                            <table id="example" class="table table-bordered" style="width:100%">
+								<thead class="table-dark">
+									<tr>
+										<th>ID</th>
+										<th>Nama</th>  
+										<th>Email</th>
+                                        <th>No WhatsApp</th>
+                                        <th>Pesan</th>
+										<th style="border: none;">Status</th>
+                                        <th style="border: none;"></th> 
+									</tr>
+								</thead>
+                                <tbody>
+									<tr>
+										<td>1</td>
+										<td>Lionel Andres </td>
+										<td>goat@gmail.com</td>
+                                        <td>08123456789</td>
+                                        <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
+                                        <td style="border: none;"><label>Unread</label></td>
+                                        <td style="border: none;">
+                                            <input type="checkbox">
+                                        </td>
+									</tr>
+                                    <tr>
+										<td>2</td>
+										<td>Cristiano Ikhsan </td>
+										<td>goat@gmail.com</td>
+                                        <td>08123456789</td>
+                                        <td>Mohon ijin min, saya tidak bisa login akun min, mohon solusinya</td>
+                                        <td style="border: none;"><label>Read</label></td>
+                                        <td style="border: none;">
+                                            <input type="checkbox" checked>
+                                        </td>
+									</tr>
+                                </tbody>
+							</table>
                             <div class="card-body">
                                 <nav aria-label="Page navigation example">
                                     <ul class="pagination">
@@ -185,5 +187,3 @@
             <!--end page wrapper -->
         </div>
     </template>
-    
-   

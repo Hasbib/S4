@@ -185,6 +185,71 @@
            </div>
        </div>
    </section>
+
+   <section id="kategori-section" class="tf__categories mt_95">
+        <div class="tf__activities_slider_area pt_95 pb_100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-md-8 col-lg-6 m-auto wow fadeInUp" data-wow-duration="1.5s">
+                        <div class="tf__heading_area mb_15">
+                            <h5>Kategori Lomba</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow fadeInUp" data-wow-duration="1.5s">
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item light_blue">
+                            <span> <i class="fal fa-book"></i> </span>
+                            <h3>Lomba AR/VR</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item green">
+                            <span> <i class="fas fa-graduation-cap"></i> </span>
+                            <h3>Lomba UI/UX</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item orange">
+                            <span> <i class="far fa-university"></i> </span>
+                            <h3>Creative Video</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item blue">
+                            <span> <i class="fas fa-books-medical"></i> </span>
+                            <h3>Smart System</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item green">
+                            <span> <i class="fas fa-analytics"></i> </span>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item green">
+                            <span> <i class="fas fa-analytics"></i> </span>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item green">
+                            <span> <i class="fas fa-analytics"></i> </span>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                    </div>
+                    <div class="col-xl-3">
+                        <div class="tf__activities_item green">
+                            <span> <i class="fas fa-analytics"></i> </span>
+                            <h3>Digital Marketing</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
    <!--=================================
        CATEGORIES END
    ==================================-->

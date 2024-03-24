@@ -19,11 +19,25 @@
                         </a>
                     </li>
                     <li>
-                        <a  href="/lomba">
+                        <a href="javascript:;" class="has-arrow">
                             <div class="parent-icon"><i class="fadeIn animated bx bx-plus-circle"></i>
                             </div>
-                            <div class="menu-title">Lomba</div>
+                            <div class="menu-title">Event</div>
                         </a>
+                        <ul>
+                            <li> <a href="/lomba"><i class="fadeIn animated bx bx-plus-circle"></i>Lomba</a>
+                            </li>
+                            <li> <a href="/administrator"><i class="bx bx-right-arrow-alt"></i>Administrator</a>
+                            </li>
+                            <li> <a href="/landingpage"><i class="bx bx-right-arrow-alt"></i>Landing Page</a>
+                            </li>
+                            <li> <a href="/tim"><i class="bx bx-right-arrow-alt"></i>Tim</a>
+                            </li>
+                            <li> <a href="/sponsor"><i class="bx bx-right-arrow-alt"></i>Sponsor</a>
+                            </li>
+                            <li> <a href="/berita"><i class="bx bx-right-arrow-alt"></i>Berita</a>
+                            </li>
+                        </ul>
                     </li>
                     <li>
                         <a href="/partisipan">
@@ -33,56 +47,21 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/profil">
-                            <div class="parent-icon"><i class="bx bx-user-circle"></i>
-                            </div>
-                            <div class="menu-title">Profile</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/laporan">
-                            <div class="parent-icon"><i class="fadeIn animated bx bx-file"></i>
-                            </div>
-                            <div class="menu-title">Laporan</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/event">
-                            <div class="parent-icon"><i class="fadeIn animated bx bx-calendar-event"></i>
-                            </div>
-                            <div class="menu-title">Event</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="/berita">
-                            <div class="parent-icon"><i class="fadeIn animated bx bx-news"></i>
-                            </div>
-                            <div class="menu-title">Berita</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="parent-icon"><i class="fadeIn animated bx bx-user"></i>
-                            </div>
-                            <div class="menu-title">Sponsor</div>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <div class="parent-icon"><i class="fadeIn animated bx bx-bell"></i>
+                        <a href="/pesan">
+                            <div class="parent-icon"><i class="fadeIn animated bx bx-comment-detail"></i>
                             </div>
                             <div class="menu-title">Pesan</div>
                         </a>
                     </li>
                     <li>
                         <a href="/">
-                            <div class="parent-icon"><i class="fadeIn animated bx bx-power-off"></i>
+                            <div class="parent-icon"><i class="fadeIn animated bx bx-log-out"></i>
                             </div>
                             <div class="menu-title">Logout</div>
                         </a>
                     </li>
                 </ul>
-                <!--end navigation-->
+            <!--end navigation-->
             </div>
             <!--end sidebar wrapper -->
             <!--start header -->
