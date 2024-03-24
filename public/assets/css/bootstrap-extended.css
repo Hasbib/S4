@@ -117,7 +117,8 @@ a {
 .btn-success {
 	color: #fff;
 	background-color: #15ca20;
-	border-color: #15ca20
+	border-color: #15ca20;
+	margin-right: 10px;
 }
 .btn-success:hover {
 	color: #fff;

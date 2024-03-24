@@ -3061,7 +3061,6 @@ button {
 }
 
 /* activities slider area start */
-.tf__activities_slider_area .tf__heading_area h5,
 .tf__activities_slider_area .tf__heading_area h2 {
     color: var(--colorWhite);
 }
