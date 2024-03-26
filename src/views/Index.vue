@@ -394,26 +394,3 @@
        SCROLL BUTTON END 
    ==============================-->
 </template>
-
-<script>
-// JavaScript
-document.addEventListener('DOMContentLoaded', function() {
-   console.log('Konten DOM Telah Dimuat');
-   const banner = document.getElementById('banner');
-   if (banner) {
-       let count = 0;
-       const images = [
-           'bootstrap/images/home.jpg',
-           'bootstrap/images/pantai.jpg',
-           'bootstrap/images/merbabu.jpg',
-       ];
-
-       setInterval(function() {
-           count = (count + 1) % images.length;
-           banner.style.backgroundImage = `url(${images[count]})`;
-       }, 6000);
-   }
-});
-
-
-</script>
